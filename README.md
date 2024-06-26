@@ -99,6 +99,5 @@ jobs:
 Now, after every push to the master branch, your site will be updated — automatically.
 
 Dont forget to update parameters at: 
-```uBench-website/config/_default
-/params.toml```
+```uBench-website/config/_default/params.toml```
 
