@@ -1,9 +1,9 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "MedAlign"
+title = "μ-Bench"
 titleSeparator = ":"
-titleAddition = "A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records"
+titleAddition = "A Vision-Language Benchmark for Microscopy Understanding"
 description = "MedAlign is a benchmark dataset of natural language instructions for evaluating large language models on instruction following tasks grounded in the Electronic Medical Record."
 
 ## Open Graph
