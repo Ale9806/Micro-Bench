@@ -4,26 +4,26 @@
 title = "μ-Bench"
 titleSeparator = ":"
 titleAddition = "A Vision-Language Benchmark for Microscopy Understanding"
-description = "MedAlign is a benchmark dataset of natural language instructions for evaluating large language models on instruction following tasks grounded in the Electronic Medical Record."
+description = ""
 
 ## Open Graph
 images = ["MEDALIGN_twitter_card.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "MedAlign Project Website"
+titleHome = "μ-Bench Project Website"
 
 ## Twitter Cards
-twitterSite = "@drnigam"
-twitterCreator = "@_scott_fleming_"
+twitterSite = "@Ale9806_"
+twitterCreator = "@Ale9806_"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/_scott_fleming_"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/thescottfleming/"
-schemaAuthorGitHub = "https://github.com/scottfleming"
+schemaAuthorTwitter = "https://twitter.com/Ale9806_"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/ale9806/"
+schemaAuthorGitHub = "https://github.com/Ale9806"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -33,7 +33,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/som-shahlab/medalign"
+schemaGitHub = "https://github.com/Ale9806/uBench-website/"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
