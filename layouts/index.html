@@ -60,7 +60,7 @@ often perform worse than generalist models; iii) fine-tuning in specific microsc
         <div class="row justify-content-center  d-md-block">
           <img src="https://raw.githubusercontent.com/Ale9806/uBench-website/main/images/UbenchFig1.png" alt="Rectangle"  class="border-0" >
               <div style="text-align: justify; text-justify: inter-word;">
-            </p style="text-align: justify; text-justify: inter-word;"> <strong> Figure 1: </strong> Data samples from μ-Bench, covering perception <span style="color: blue;">(left)</span> and cognition (right) tasks across
+            </p style="text-align: justify; text-justify: inter-word;"> <strong> Figure 1: </strong> Data samples from μ-Bench, covering perception <span style="color: blue;">(left)</span> and cognition  <span style="color: red;">(right)</span> tasks across
                 subcellular, cellular, and tissue levels tasks across electron, fluorescence, and light microscopy</p>
         </div>
 
@@ -73,12 +73,12 @@ often perform worse than generalist models; iii) fine-tuning in specific microsc
 
            <img src="https://raw.githubusercontent.com/Ale9806/uBench-website/main/images/generation.png" alt="Rectangle"  class="border-0" >
 
-          </p style="text-align: justify; text-justify: inter-word;">    <strong>Figure 2:</strong> μ-Bench construction protocol. Perception dataset (Left): first taxonomize use cases
+          </p style="text-align: justify; text-justify: inter-word;">    <strong>Figure 2:</strong> μ-Bench construction protocol. Perception dataset  <span style="color: blue;">(left)</span>: first taxonomize use cases
 across subcellular, cellular, and tissue-level applications and collect representative datasets spanning
 multiple imaging modalities to test those scenarios. Next, datasets are converted to a common
 format, and the ontological information extracted from their metadata is standardized. Aided by
 this information, experts synthesize VQA pairs designed to test perception ability. Cognition
-dataset (Right): First, domain experts use an interactive web application to upload their images and
+dataset <span style="color: red;">(right)</span>: First, domain experts use an interactive web application to upload their images and
 corresponding open-ended VQA pairs. Next, GPT-4 transforms the VQA pairs into a close-ended
 multiple-choice format. All GPT-4 generations are reviewed by experts before being incorporated
 into the cognition dataset. </p>
