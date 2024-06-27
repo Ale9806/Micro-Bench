@@ -57,7 +57,7 @@ copyRight = "Copyright (c) 2022-2023 Scott Fleming"
 
 # Alert
 alert = false
-alertText = "Like MedAlign? <a class=\"alert-link\" href=\"https://github.com/som-shahlab/medalign\">Star on GitHub</a>. Thanks!</a>"
+alertText = "Like u-Bench? <a class=\"alert-link\" href=\"https://github.com/yeung-lab/u-Bench">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
 docsRepo = "https://github.com/som-shahlab/medalign-website"
