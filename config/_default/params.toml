@@ -57,7 +57,7 @@ copyRight = "Copyright (c) 2024 Alejandro Lozano"
 
 # Alert
 alert = false
-alertText = "Like u-Bench? <a class=\"alert-link\" href=\"https://github.com/yeung-lab/u-Bench">Star on GitHub</a>. Thanks!</a>"
+alertText = "Like u-Bench? <a class=\"alert-link\" href=\"https://github.com/yeung-lab/u-Bench\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
 docsRepo = "https://github.com/Ale9806/uBench-website"
