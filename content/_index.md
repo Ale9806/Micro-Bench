@@ -1,7 +1,7 @@
 ---
-title: "MedAlign"
-description: "A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records"
-lead: "A Clinician-Generated Benchmark Dataset for Instruction Following with Electronic Medical Records"
+title: "u-Bench"
+description: "A Vision-Language Benchmark for Microscopy Understanding"
+lead: "A Vision-Language Benchmark for Microscopy Understanding"
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false
