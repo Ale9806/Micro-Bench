@@ -142,7 +142,7 @@
       <h2>Findings:</h2> 
 
     <p style="text-align: justify; text-justify: inter-word;"> 
-    While specialist models are explicitly developed for the biomedical domain, they can underperform non-specialized open-
+    While specialist models are explicitly developed for the biomedical domain, they can sometimes underperform non-specialized open-
     source models. For example, in both coarse-grained perception and cognition tasks (Table 1), GA
     models (CogVLM and QwenVLM) outperform the best SC model (BiomedCLIP) by 4.4% and 16.0%
     margins respectively. While GA models have a different training objective, larger training mixture,
@@ -157,11 +157,25 @@
   <p style="text-align: justify; text-justify: inter-word;"> 
     <strong>Specialist training can cause catastrophic forgetting</strong> Base models like (OpenCLI and CLIP) surprisingly outperform their fine-tuned counterparts (PILP and QuiltNet) in coarse-
     grained perception and cognition (Table 1). Specifically, PILP and QuiltNet are fine-tuned directly
-  from OpenCLIP and CLIP using only pathology data closest to μ-Bench fine-grained perception
-  tasks. Although it improves performance on pathology-specific fine-grained tasks, it
-  degrades performance (when compared to their base models) on all other tasks.
+    from OpenCLIP and CLIP using only pathology data closest to μ-Bench fine-grained perception
+    tasks. Although it improves performance on pathology-specific fine-grained tasks, it
+    degrades performance (when compared to their base models) on all other tasks.
   </p>
 
+  <p style="text-align: justify; text-justify: inter-word;"> 
+    <strong>μ-Bench characterization drives robust model development</strong> To address catastrophic forgetting
+    identified in our multi-level evaluation, we ensemble base model weights (OpenCLIP / CLIP) with finetuned model weights (PLIP/QuiltNet) to create merged models (PLIP+OpenCLIP / QuiltNet+CLIP),
+    as suggested. As shown in Figure 5, when comparing merged models to their fine-tuned
+    counterparts, perception performance increases across all of μ-Bench (y-axis), including pathology-specific tasks (x-axis).  
+  </p>
+
+  <img src="https://raw.githubusercontent.com/Ale9806/uBench-website/main/images/robust.png" alt="Rectangle"  class="border-0" >
+  <div style="text-align: justify; text-justify: inter-word;"> 
+  </p style="text-align: justify; text-justify: inter-word;"> <strong> Figure 4: </strong> ine-tuning and microscopy perception generalization on μ-Bench . Base CLIP models
+  (blue) are fine-tuned to PLIP and QuiltNet using pathology data mixtures (pink). Weight-merging base
+  models with their corresponding fine-tuned models (olive) improves specialist zero-shot performance
+  on μ-Bench coarse-grained (Left) and fined-grained (Right) perception.</p>
+  </div>
 
         </div>
      
