@@ -119,7 +119,7 @@
 
         <h2>Benchmarking:</h2>
 
-      </p style="text-align: justify; text-justify: inter-word;"> 
+      <p style="text-align: justify; text-justify: inter-word;"> 
 
       Data artifacts like μ-Bench enable studying model behavior within specialist domains. Since our
       benchmark covers a wide range of biomedical tasks, we can, for the first time, compare biomedical
@@ -141,8 +141,8 @@
 
       <h2>Findings:</h2> 
 
-    </p style="text-align: justify; text-justify: inter-word;"> 
-    While specialist models are explicitly developed for the biomedical domain, they often underperform non-specialized open-
+    <p style="text-align: justify; text-justify: inter-word;"> 
+    While specialist models are explicitly developed for the biomedical domain, they can underperform non-specialized open-
     source models. For example, in both coarse-grained perception and cognition tasks (Table 1), GA
     models (CogVLM and QwenVLM) outperform the best SC model (BiomedCLIP) by 4.4% and 16.0%
     margins respectively. While GA models have a different training objective, larger training mixture,
@@ -151,8 +151,16 @@
     20.3% (CONCH - OpenCLIP) respectively. This ranking is reversed in fine-grained perception tasks,
     where BiomedCLIP and CONCH perform best. Indeed, fine-grained perception closely resembles
     the data mixture used to fine-tune contrastive specialist models. This characterization shows
-    weakness in current microscopy biomedical model development, which we investigate next.
+    weakness in current microscopy biomedical model development. 
     </p>
+
+  <p style="text-align: justify; text-justify: inter-word;"> 
+    <strong>Specialist training can cause catastrophic forgetting</strong> Base models like (OpenCLI and CLIP) surprisingly outperform their fine-tuned counterparts (PILP and QuiltNet) in coarse-
+    grained perception and cognition (Table 1). Specifically, PILP and QuiltNet are fine-tuned directly
+  from OpenCLIP and CLIP using only pathology data closest to μ-Bench fine-grained perception
+  tasks. Although it improves performance on pathology-specific fine-grained tasks, it
+  degrades performance (when compared to their base models) on all other tasks.
+  </p>
 
 
         </div>
