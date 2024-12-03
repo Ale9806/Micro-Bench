@@ -10,7 +10,7 @@ description = ""
 images = ["MEDALIGN_twitter_card.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "μ-Bench Project Website"
+titleHome = "Micro-Bench Project Website"
 
 ## Twitter Cards
 twitterSite = "@Ale9806_"
